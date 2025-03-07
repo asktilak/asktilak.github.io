@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tilak</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: monospace;
+      }
+
+      body {
+        background-color: white;
+        color: black;
+        font-family: monospace;
+        font-size: 1.45em;
+        line-height: 1.6;
+        text-align: center;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: black;
+          color: white;
+          font-family: monospace;
+          font-size: 1.45em;
+          line-height: 1.6;
+        }
+      }
+
+      #website-heading {
+        text-align: center;
+        color: purple;
+        font-family: monospace;
+        font-size: 40px;
+      }
+
+      #navbarr {
+        display: flex;
+        justify-content: center; /* Centers the navbar horizontally */
+        align-items: center;
+      }
+
+      .nav-list {
+        display: flex;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-family: monospace;
+        text-align: center;
+      }
+
+      .nav-list li {
+        margin: 0 15px;
+      }
+
+      .nav-list li a {
+        text-decoration: rgb(255, 255, 255);
+        color: blue;
+      }
+
+      @media (max-width: 600px) {
+        .nav-list {
+          flex-direction: column; /* Stack the items vertically on smaller screens */
+          align-items: center;
+        }
+
+        .nav-list li {
+          margin: 10px 0; /* Adjust margin for vertical layout */
+        }
+      }
+
+      #actual-content {
+        text-align: center;
+        margin: 0 225px 0 225px;
+      }
+
+      @media (max-width: 600px) {
+        #actual-content {
+          text-align: center;
+          margin: 0 20px 0 20px;
+        }
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <main>
+        <h1 id="website-heading">"TILAK"</h1>
+        <div>
+          <nav id="navbarr">
+            <ul class="nav-list">
+              <li><a href="index.html">[Home]</a></li>
+              <li><a href="blogs.html">[Blogs]</a></li>
+              <li><a href="links.html">[Links]</a></li>
+              <li><a href="gallery.html">[Gallery]</a></li>
+              <li><a href="about.html">[About me]</a></li>
+              <li><a href="contact.html">[Contact]</a></li>
+            </ul>
+          </nav>
+        </div>
+      </main>
+    </div>
+    <br />
+    <div id="actual-content">
+      <h1 style="text-decoration: underline; color: red">ERROR 404!!</h1>
+    </div>
+    <footer>
+      <a href="http://www.anybrowser.org/campaign/"
+        ><img
+          src="files/images/any-browser.gif"
+          width="graphic-width-in-pixels"
+          height="graphic-height-in-pixels"
+          alt="Viewable With Any Browser"
+      /></a>
+    </footer>
+  </body>
+</html>
