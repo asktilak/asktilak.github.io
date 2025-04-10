@@ -1,4 +1,4 @@
-# My website [[https://tilak.github.io](https://tilak.github.io)]
+# My website [[https://asktilak.github.io](https://asktilak.github.io)]
 
 My personal website for writing various thoughts and other nonsense.
 
